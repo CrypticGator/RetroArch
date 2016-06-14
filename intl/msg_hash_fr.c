@@ -128,10 +128,6 @@ const char *msg_hash_to_str_fr(uint32_t hash)
          return "Impossible de charger la savestate à partir de";
       case MSG_FAILED_TO_SAVE_STATE_TO:
          return "Impossible de sauvegarder la savestate vers";
-      case MSG_FAILED_TO_LOAD_UNDO:
-         return "Aucun savestate de retour arrière trouvé";
-      case MSG_FAILED_TO_SAVE_UNDO:
-         return "Impossible de sauvegarder les informations de savestate de retour arrière";
       case MSG_FAILED_TO_SAVE_SRAM:
          return "Impossible de sauvegarder la SRAM";
       case MSG_STATE_SIZE:
